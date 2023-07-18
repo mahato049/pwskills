@@ -1,0 +1,5 @@
+Q1. Create one variable containing following type of data:
+(i) string -i="santosh"
+(ii) list  l=[23,251,26,85,530.3]
+(iii) float
+(iv) tuple
