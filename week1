@@ -1,5 +1,56 @@
 Q1. Create one variable containing following type of data:
 (i) string -i="santosh"
 (ii) list  l=[23,251,26,85,530.3]
-(iii) float
-(iv) tuple
+(iii) float a=2.0
+(iv) tuple t=(10,20,"hello")
+
+
+Q2. Given are some following variables containing data:
+What will be the data type of the below given variable.
+(i) var1 = ‘ ‘
+ans:- string
+(ii) var2 = ‘[ DS , ML , Python]’
+ans:-invalid character
+(iii) var3 = [ ‘DS’ , ’ML’ , ‘Python’ ]
+ans:- list
+(iv) var4 = 1.
+ans:-integer
+
+Q3. Explain the use of the following operators using an example:
+(i) /
+ans:-Division 
+print(10/2)=5
+(ii) %
+ans:-modulus gives remainder
+print(10%3)=1
+(iii) //
+ans:-Floor divison gives quotient
+print(10//3)=3
+(iv) **
+ans:-exponents means sqaure of the integers
+print(5**2)=25
+
+
+Q4. Create a list of length 10 of your choice containing multiple types of data. Using for loop print the
+element and its data type.
+ans:-L=[10,20,30,40.3,'santosh','subham','sonu',98,62,88]
+for i in L:
+    print(type(i))
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+
+
+Q5. Using a while loop, verify if the number A is purely divisible by number B and if so then how many
+times it can be divisible.
+
+
+
+
