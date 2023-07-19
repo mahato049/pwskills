@@ -50,7 +50,67 @@ for i in L:
 
 Q5. Using a while loop, verify if the number A is purely divisible by number B and if so then how many
 times it can be divisible.
+ans:-
+a=int (input ())
+b=int (input ())
+while a%b==0: 
+    print ('a is divisible by b', 'and a is divisible by b for', a/b, 'times')
+    break 
+else:
+    print ('a is not divisible by b')
+40
+10
+a is divisible by b and a is divisible by b for 4.0 times
 
 
 
+Q6. Create a list containing 25 int type data. Using for loop and if-else condition print if the element is
+divisible by 3 or not.
+ans:-
+a=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
+type(a)
+list
+
+for i in a:
+    if i%3==0:
+        print(i, 'is divisible by 3')
+    else:
+            print(i, 'is not divisible by 3')
+output
+1 is not divisible by 3
+2 is not divisible by 3
+3 is divisible by 3
+4 is not divisible by 3
+5 is not divisible by 3
+6 is divisible by 3
+7 is not divisible by 3
+8 is not divisible by 3
+9 is divisible by 3
+10 is not divisible by 3
+11 is not divisible by 3
+12 is divisible by 3
+13 is not divisible by 3
+14 is not divisible by 3
+15 is divisible by 3
+16 is not divisible by 3
+17 is not divisible by 3
+18 is divisible by 3
+19 is not divisible by 3
+20 is not divisible by 3
+21 is divisible by 3
+22 is not divisible by 3
+23 is not divisible by 3
+24 is divisible by 3
+25 is not divisible by 3
+
+
+Q7. What do you understand about mutable and immutable data types? Give examples for both showing
+this property.
+ans:-mutable data type:-
+mutable object can change its state or contents.
+example:-
+list,dictionary,byte array
+
+immutable data type:- immutable object cannot change its state or contents.
+example:-int,float,complex,string,tuple,set.
 
